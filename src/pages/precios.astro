@@ -1,0 +1,522 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <!-- Hero Section - Precios -->
+  <section
+		id="inicio"
+		class="relative min-h-screen flex items-center bg-cover bg-center bg-no-repeat"
+		style="background-image: url('src/images/suits.jpg');"
+	>
+			<div class="absolute inset-0 bg-blue-950/50"></div>
+
+	<div class="relative max-w-7xl mx-auto px-6 py-20 text-white z-10">
+      <h1 class="text-5xl lg:text-6xl font-bold leading-tight mb-6">
+        Planes y
+        <span
+          class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400"
+        >
+          Precios
+        </span>
+      </h1>
+      <p class="text-xl text-slate-300 leading-relaxed max-w-3xl mx-auto">
+        Ofrecemos planes flexibles adaptados a las necesidades de cada cliente,
+        desde consultas puntuales hasta asesoría integral continua.
+      </p>
+    </div>
+    <!-- Patrones decorativos -->
+    <div class="absolute bottom-0 left-0 w-full">
+      <svg viewBox="0 0 1200 120" fill="none" class="w-full h-20">
+        <path d="M1200 120L0 16.48V120h1200z" fill="rgb(248 250 252)"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Planes de precios -->
+  <section class="py-20 bg-gradient-to-br from-slate-50 to-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-3 gap-8 mb-16">
+        <!-- Plan Básico -->
+        <div
+          class="group bg-white p-8 rounded-2xl border-2 border-slate-200 hover:border-blue-300 transition-all duration-300 hover:shadow-xl relative"
+        >
+          <div class="text-center mb-8">
+            <div
+              class="w-16 h-16 bg-gradient-to-r from-slate-600 to-slate-700 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300"
+            >
+              <svg
+                class="w-8 h-8 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-slate-800 mb-2">Plan Básico</h3>
+            <p class="text-slate-600 mb-4">Ideal para consultas puntuales</p>
+            <div class="text-4xl font-bold text-slate-800 mb-2">
+              $2,500
+              <span class="text-lg font-normal text-slate-500">/consulta</span>
+            </div>
+          </div>
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">Consulta legal de 1 hora</span>
+            </li>
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">Revisión de documentos básicos</span>
+            </li>
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">Orientación jurídica general</span>
+            </li>
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">Respuesta en 48 horas</span>
+            </li>
+          </ul>
+          <a
+            href="#contacto"
+            class="w-full bg-slate-600 hover:bg-slate-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 block text-center"
+          >
+            Contratar Plan
+          </a>
+        </div>
+
+        <!-- Plan Profesional -->
+        <div
+          class="group bg-white p-8 rounded-2xl border-2 border-blue-400 hover:border-blue-500 transition-all duration-300 hover:shadow-xl relative transform scale-105"
+        >
+          <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+            <span
+              class="bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-6 py-2 rounded-full text-sm font-semibold"
+            >
+              Más Popular
+            </span>
+          </div>
+          <div class="text-center mb-8">
+            <div
+              class="w-16 h-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300"
+            >
+              <svg
+                class="w-8 h-8 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-slate-800 mb-2">
+              Plan Profesional
+            </h3>
+            <p class="text-slate-600 mb-4">Para empresas en crecimiento</p>
+            <div class="text-4xl font-bold text-slate-800 mb-2">
+              $15,000
+              <span class="text-lg font-normal text-slate-500">/mes</span>
+            </div>
+          </div>
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">5 horas de consulta mensual</span>
+            </li>
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">Revisión de contratos</span>
+            </li>
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">Asesoría corporativa básica</span>
+            </li>
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">Respuesta en 24 horas</span>
+            </li>
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">Seguimiento de casos</span>
+            </li>
+          </ul>
+          <a
+            href="#contacto"
+            class="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 block text-center"
+          >
+            Contratar Plan
+          </a>
+        </div>
+
+        <!-- Plan Empresarial -->
+        <div
+          class="group bg-white p-8 rounded-2xl border-2 border-slate-200 hover:border-emerald-300 transition-all duration-300 hover:shadow-xl relative"
+        >
+          <div class="text-center mb-8">
+            <div
+              class="w-16 h-16 bg-gradient-to-r from-emerald-600 to-emerald-700 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300"
+            >
+              <svg
+                class="w-8 h-8 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-slate-800 mb-2">
+              Plan Empresarial
+            </h3>
+            <p class="text-slate-600 mb-4">Solución integral completa</p>
+            <div class="text-4xl font-bold text-slate-800 mb-2">
+              $35,000
+              <span class="text-lg font-normal text-slate-500">/mes</span>
+            </div>
+          </div>
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">15 horas de consulta mensual</span>
+            </li>
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">Asesoría legal integral</span>
+            </li>
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">Representación judicial</span>
+            </li>
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">Respuesta inmediata</span>
+            </li>
+            <li class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-500 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span class="text-slate-600">Abogado dedicado</span>
+            </li>
+          </ul>
+          <a
+            href="#contacto"
+            class="w-full bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 block text-center"
+          >
+            Contratar Plan
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios adicionales -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-slate-800 mb-4">
+          Servicios Adicionales
+        </h2>
+        <p class="text-xl text-slate-600">
+          Complementa tu plan con servicios especializados
+        </p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div
+          class="text-center p-6 bg-slate-50 rounded-2xl border border-slate-200 hover:border-blue-300 transition-colors"
+        >
+          <div
+            class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4"
+          >
+            <svg
+              class="w-6 h-6 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-slate-800 mb-2">Auditoría Legal</h3>
+          <p class="text-2xl font-bold text-blue-600 mb-2">$8,500</p>
+          <p class="text-slate-600 text-sm">Por proyecto</p>
+        </div>
+        <div
+          class="text-center p-6 bg-slate-50 rounded-2xl border border-slate-200 hover:border-cyan-300 transition-colors"
+        >
+          <div
+            class="w-12 h-12 bg-cyan-600 rounded-lg flex items-center justify-center mx-auto mb-4"
+          >
+            <svg
+              class="w-6 h-6 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+              ></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-slate-800 mb-2">
+            Constitución Empresas
+          </h3>
+          <p class="text-2xl font-bold text-cyan-600 mb-2">$12,000</p>
+          <p class="text-slate-600 text-sm">Proceso completo</p>
+        </div>
+        <div
+          class="text-center p-6 bg-slate-50 rounded-2xl border border-slate-200 hover:border-emerald-300 transition-colors"
+        >
+          <div
+            class="w-12 h-12 bg-emerald-600 rounded-lg flex items-center justify-center mx-auto mb-4"
+          >
+            <svg
+              class="w-6 h-6 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+              ></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-slate-800 mb-2">Registro de Marcas</h3>
+          <p class="text-2xl font-bold text-emerald-600 mb-2">$6,500</p>
+          <p class="text-slate-600 text-sm">Por marca</p>
+        </div>
+        <div
+          class="text-center p-6 bg-slate-50 rounded-2xl border border-slate-200 hover:border-purple-300 transition-colors"
+        >
+          <div
+            class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mx-auto mb-4"
+          >
+            <svg
+              class="w-6 h-6 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-slate-800 mb-2">Litigios</h3>
+          <p class="text-2xl font-bold text-purple-600 mb-2">Desde $20,000</p>
+          <p class="text-slate-600 text-sm">Según complejidad</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section
+        class="py-20 bg-cover bg-center bg-no-repeat relative"
+        style="background-image: url('src/images/corbatas.webp');"
+    >
+    <div class="absolute inset-0 bg-slate-900/80"></div>
+    <div class="relative max-w-4xl mx-auto px-6 text-center text-white">
+      <h2 class="text-4xl font-bold mb-6">¿No encuentras el plan ideal?</h2>
+      <p class="text-xl text-slate-300 mb-8">
+        Contáctanos para crear un plan personalizado que se adapte perfectamente
+        a tus necesidades específicas.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="#contacto"
+          class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-lg font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105"
+        >
+          Cotización Personalizada
+        </a>
+        <a
+          href="tel:+5299312345667"
+          class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-slate-900 transition-all duration-300"
+        >
+          Llamar Ahora
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

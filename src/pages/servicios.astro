@@ -1,0 +1,817 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+    <!-- Hero Servicios -->
+    <section
+		id="inicio"
+		class="relative min-h-screen flex items-center bg-cover bg-center bg-no-repeat"
+		style="background-image: url('src/images/legals.jpg');"
+	>
+			<div class="absolute inset-0 bg-slate-950/50"></div>
+        <div class="relative max-w-7xl mx-auto px-6 py-20 text-white z-10">
+            <div class="relative max-w-7xl mx-auto px-6 py-20 text-white z-10">
+                <h1 class="text-5xl lg:text-6xl font-bold leading-tight mb-6">Nuestros Servicios</h1>
+                <p
+                    class="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed"
+                >
+                    Ofrecemos asesoría legal integral y especializada en
+                    diversas áreas del derecho, adaptándonos a las necesidades
+                    específicas de cada cliente con soluciones innovadoras y
+                    eficaces.
+                </p>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 w-full">
+            <svg viewBox="0 0 1200 120" fill="none" class="w-full h-20">
+                <path d="M1200 120L0 16.48V120h1200z" fill="rgb(248 250 252)"
+                ></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Servicios Principales -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <!-- Derecho Corporativo -->
+                <div class="group">
+                    <div
+                        class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl border border-blue-200 hover:border-blue-300 transition-all duration-300 hover:shadow-2xl"
+                    >
+                        <div class="flex items-start space-x-6">
+                            <div
+                                class="w-20 h-20 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300"
+                            >
+                                <svg
+                                    class="w-10 h-10 text-white"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h3
+                                    class="text-3xl font-bold text-slate-800 mb-4"
+                                >
+                                    Derecho Corporativo
+                                </h3>
+                                <p class="text-slate-600 mb-6 leading-relaxed">
+                                    Asesoramos a empresas en su constitución,
+                                    estructuración corporativa, fusiones,
+                                    adquisiciones y reorganizaciones
+                                    empresariales.
+                                </p>
+                                <div class="space-y-3">
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-blue-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Constitución de sociedades
+                                    </div>
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-blue-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Fusiones y adquisiciones
+                                    </div>
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-blue-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Contratos comerciales
+                                    </div>
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-blue-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Gobierno corporativo
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Derecho Laboral -->
+                <div class="group">
+                    <div
+                        class="bg-gradient-to-br from-cyan-50 to-white p-8 rounded-2xl border border-cyan-200 hover:border-cyan-300 transition-all duration-300 hover:shadow-2xl"
+                    >
+                        <div class="flex items-start space-x-6">
+                            <div
+                                class="w-20 h-20 bg-gradient-to-r from-cyan-600 to-cyan-700 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300"
+                            >
+                                <svg
+                                    class="w-10 h-10 text-white"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h3
+                                    class="text-3xl font-bold text-slate-800 mb-4"
+                                >
+                                    Derecho Laboral
+                                </h3>
+                                <p class="text-slate-600 mb-6 leading-relaxed">
+                                    Representamos tanto a empleadores como
+                                    trabajadores en asuntos laborales, desde
+                                    contratos hasta litigios complejos.
+                                </p>
+                                <div class="space-y-3">
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-cyan-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Contratos laborales
+                                    </div>
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-cyan-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Despidos y finiquitos
+                                    </div>
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-cyan-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Demandas laborales
+                                    </div>
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-cyan-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Cumplimiento normativo
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Derecho Civil -->
+                <div class="group">
+                    <div
+                        class="bg-gradient-to-br from-emerald-50 to-white p-8 rounded-2xl border border-emerald-200 hover:border-emerald-300 transition-all duration-300 hover:shadow-2xl"
+                    >
+                        <div class="flex items-start space-x-6">
+                            <div
+                                class="w-20 h-20 bg-gradient-to-r from-emerald-600 to-emerald-700 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300"
+                            >
+                                <svg
+                                    class="w-10 h-10 text-white"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h3
+                                    class="text-3xl font-bold text-slate-800 mb-4"
+                                >
+                                    Derecho Civil
+                                </h3>
+                                <p class="text-slate-600 mb-6 leading-relaxed">
+                                    Asesoramos en asuntos civiles, familiares,
+                                    inmobiliarios y de responsabilidad civil con
+                                    un enfoque personalizado.
+                                </p>
+                                <div class="space-y-3">
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-emerald-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Contratos civiles
+                                    </div>
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-emerald-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Sucesiones y testamentos
+                                    </div>
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-emerald-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Derecho inmobiliario
+                                    </div>
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-emerald-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Derecho familiar
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Litigios -->
+                <div class="group">
+                    <div
+                        class="bg-gradient-to-br from-orange-50 to-white p-8 rounded-2xl border border-orange-200 hover:border-orange-300 transition-all duration-300 hover:shadow-2xl"
+                    >
+                        <div class="flex items-start space-x-6">
+                            <div
+                                class="w-20 h-20 bg-gradient-to-r from-orange-600 to-orange-700 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300"
+                            >
+                                <svg
+                                    class="w-10 h-10 text-white"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h3
+                                    class="text-3xl font-bold text-slate-800 mb-4"
+                                >
+                                    Litigios
+                                </h3>
+                                <p class="text-slate-600 mb-6 leading-relaxed">
+                                    Representación judicial experta en todas las
+                                    instancias, con un enfoque estratégico para
+                                    obtener los mejores resultados.
+                                </p>
+                                <div class="space-y-3">
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-orange-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Litigios civiles
+                                    </div>
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-orange-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Litigios comerciales
+                                    </div>
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-orange-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Arbitraje
+                                    </div>
+                                    <div
+                                        class="flex items-center text-slate-700"
+                                    >
+                                        <svg
+                                            class="w-5 h-5 text-orange-600 mr-3"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        Mediación
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Especializados -->
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-800 mb-4">
+                    Servicios Especializados
+                </h2>
+                <p class="text-xl text-slate-600">
+                    Expertise avanzado en áreas de alta especialización
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Compliance -->
+                <div
+                    class="bg-white p-8 rounded-2xl border border-slate-200 hover:shadow-xl transition-all duration-300 group"
+                >
+                    <div
+                        class="w-16 h-16 bg-gradient-to-r from-purple-600 to-purple-700 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <svg
+                            class="w-8 h-8 text-white"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                            ></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-slate-800 mb-4">
+                        Compliance
+                    </h3>
+                    <p class="text-slate-600 mb-4">
+                        Auditorías legales, programas de cumplimiento y gestión
+                        de riesgos legales.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-600">
+                        <li>• Auditorías de cumplimiento</li>
+                        <li>• Programas anticorrupción</li>
+                        <li>• Gestión de riesgos</li>
+                        <li>• Due diligence</li>
+                    </ul>
+                </div>
+
+                <!-- Propiedad Intelectual -->
+                <div
+                    class="bg-white p-8 rounded-2xl border border-slate-200 hover:shadow-xl transition-all duration-300 group"
+                >
+                    <div
+                        class="w-16 h-16 bg-gradient-to-r from-pink-600 to-pink-700 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <svg
+                            class="w-8 h-8 text-white"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                            ></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-slate-800 mb-4">
+                        Propiedad Intelectual
+                    </h3>
+                    <p class="text-slate-600 mb-4">
+                        Protección y registro de marcas, patentes, derechos de
+                        autor y secretos industriales.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-600">
+                        <li>• Registro de marcas</li>
+                        <li>• Patentes y modelos</li>
+                        <li>• Derechos de autor</li>
+                        <li>• Contratos de licencia</li>
+                    </ul>
+                </div>
+
+                <!-- Derecho Fiscal -->
+                <div
+                    class="bg-white p-8 rounded-2xl border border-slate-200 hover:shadow-xl transition-all duration-300 group"
+                >
+                    <div
+                        class="w-16 h-16 bg-gradient-to-r from-indigo-600 to-indigo-700 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <svg
+                            class="w-8 h-8 text-white"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"
+                            ></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-slate-800 mb-4">
+                        Derecho Fiscal
+                    </h3>
+                    <p class="text-slate-600 mb-4">
+                        Planificación fiscal, controversias tributarias y
+                        optimización de cargas impositivas.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-600">
+                        <li>• Planeación fiscal</li>
+                        <li>• Controversias SAT</li>
+                        <li>• Reestructuras fiscales</li>
+                        <li>• Precios de transferencia</li>
+                    </ul>
+                </div>
+
+                <!-- Derecho Tecnológico -->
+                <div
+                    class="bg-white p-8 rounded-2xl border border-slate-200 hover:shadow-xl transition-all duration-300 group"
+                >
+                    <div
+                        class="w-16 h-16 bg-gradient-to-r from-teal-600 to-teal-700 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <svg
+                            class="w-8 h-8 text-white"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                            ></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-slate-800 mb-4">
+                        Derecho Tecnológico
+                    </h3>
+                    <p class="text-slate-600 mb-4">
+                        Asesoría especializada en tecnología, datos personales y
+                        comercio electrónico.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-600">
+                        <li>• Protección de datos</li>
+                        <li>• Comercio electrónico</li>
+                        <li>• Contratos tecnológicos</li>
+                        <li>• Ciberseguridad</li>
+                    </ul>
+                </div>
+
+                <!-- Derecho Financiero -->
+                <div
+                    class="bg-white p-8 rounded-2xl border border-slate-200 hover:shadow-xl transition-all duration-300 group"
+                >
+                    <div
+                        class="w-16 h-16 bg-gradient-to-r from-yellow-600 to-yellow-700 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <svg
+                            class="w-8 h-8 text-white"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"
+                            ></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-slate-800 mb-4">
+                        Derecho Financiero
+                    </h3>
+                    <p class="text-slate-600 mb-4">
+                        Regulación financiera, banca, seguros y mercado de
+                        valores.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-600">
+                        <li>• Regulación bancaria</li>
+                        <li>• Mercado de valores</li>
+                        <li>• Seguros y fianzas</li>
+                        <li>• Fintech y criptomonedas</li>
+                    </ul>
+                </div>
+
+                <!-- Derecho Ambiental -->
+                <div
+                    class="bg-white p-8 rounded-2xl border border-slate-200 hover:shadow-xl transition-all duration-300 group"
+                >
+                    <div
+                        class="w-16 h-16 bg-gradient-to-r from-green-600 to-green-700 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <svg
+                            class="w-8 h-8 text-white"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9"
+                            ></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-slate-800 mb-4">
+                        Derecho Ambiental
+                    </h3>
+                    <p class="text-slate-600 mb-4">
+                        Normatividad ambiental, permisos, licencias y desarrollo
+                        sustentable.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-600">
+                        <li>• Licencias ambientales</li>
+                        <li>• Evaluaciones de impacto</li>
+                        <li>• Cumplimiento ambiental</li>
+                        <li>• Energías renovables</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metodología -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-800 mb-4">
+                    Nuestra Metodología
+                </h2>
+                <p class="text-xl text-slate-600">
+                    Un proceso estructurado para garantizar los mejores
+                    resultados
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center group">
+                    <div
+                        class="w-20 h-20 bg-gradient-to-r from-blue-600 to-blue-700 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <span class="text-2xl font-bold text-white">1</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-800 mb-4">
+                        Análisis
+                    </h3>
+                    <p class="text-slate-600">
+                        Evaluamos detalladamente tu situación legal y objetivos
+                        específicos.
+                    </p>
+                </div>
+
+                <div class="text-center group">
+                    <div
+                        class="w-20 h-20 bg-gradient-to-r from-cyan-600 to-cyan-700 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <span class="text-2xl font-bold text-white">2</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-800 mb-4">
+                        Estrategia
+                    </h3>
+                    <p class="text-slate-600">
+                        Desarrollamos una estrategia legal personalizada y
+                        efectiva.
+                    </p>
+                </div>
+
+                <div class="text-center group">
+                    <div
+                        class="w-20 h-20 bg-gradient-to-r from-emerald-600 to-emerald-700 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <span class="text-2xl font-bold text-white">3</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-800 mb-4">
+                        Ejecución
+                    </h3>
+                    <p class="text-slate-600">
+                        Implementamos la estrategia con precisión y seguimiento
+                        constante.
+                    </p>
+                </div>
+
+                <div class="text-center group">
+                    <div
+                        class="w-20 h-20 bg-gradient-to-r from-purple-600 to-purple-700 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <span class="text-2xl font-bold text-white">4</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-800 mb-4">
+                        Resultados
+                    </h3>
+                    <p class="text-slate-600">
+                        Entregamos resultados medibles y mantenemos seguimiento
+                        post-servicio.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section
+        class="py-20 bg-cover bg-center bg-no-repeat relative"
+        style="background-image: url('src/images/corbatas.webp');"
+    >
+        <div class="absolute inset-0 bg-slate-900/80"></div>
+        <div class="relative max-w-4xl mx-auto px-6 text-center text-white">
+            <h2 class="text-4xl font-bold mb-6">
+                ¿Necesitas asesoría en alguna de estas áreas?
+            </h2>
+            <p class="text-xl text-slate-300 mb-8">
+                Nuestros especialistas están listos para analizar tu caso y
+                ofrecerte la mejor solución legal.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                    href="#contacto"
+                    class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-lg font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105"
+                >
+                    Consulta Especializada
+                </a>
+                <a
+                    href="#precios"
+                    class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-slate-900 transition-all duration-300"
+                >
+                    Ver Precios
+                </a>
+            </div>
+        </div>
+    </section>
+</Layout>

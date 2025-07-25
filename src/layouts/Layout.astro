@@ -1,0 +1,23 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consisa | Consultoría Legal Especializada</title>
+  <meta name="description" content="Consultoría legal especializada con más de 15 años de experiencia. Asesoría jurídica integral para empresas y particulares." />
+</head>
+<body class="font-sans bg-gray-50 text-gray-800 scroll-smooth">
+  <Header />
+  
+  <main class="pt-20">
+    <slot />
+  </main>
+
+  <Footer />
+</body>
+</html>
